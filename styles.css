@@ -1,0 +1,92 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce6e6; /* Soft pastel pink */
+}
+
+/* Header styles */
+header {
+    background-image: url('header-background.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust height as needed */
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    color: #fff; /* White text color */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #f8d7d7; /* Lighter shade of pink */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+}
+
+/* Section styles */
+section {
+    padding: 50px 0;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Red Rose styles */
+.red-rose {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+/* Gallery styles */
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8d7d7; /* Lighter shade of pink */
+    text-align: center;
+    padding: 20px 0;
+}
